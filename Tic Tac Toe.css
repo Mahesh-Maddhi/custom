@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.heading{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Lobster";
+    color: red;
+}
+.board{
+    height: 50vh;
+    width: 50vh;
+    background-color: aqua;
+    border: 1vh solid rgb(255, 109, 47);
+    border-radius: 15px;
+    padding: none;
+}
+.board-position{
+    text-align: center;
+}
+.row1{
+    margin-bottom: 1vh;
+    height: 30%;
+}
+
+.btncntr{
+    text-align: center;
+    background-color: red;
+    width: 30%;
+    height: 100%;
+
+    margin: 1vh;
+}
+.button,.button:focus{
+    height: 100%;
+    width: 100%;
+    border-style: none;
+    outline: none;
+    font-weight: 900;
+    font-size: 40px;
+}
+.button:active{
+    scale: 0.98;
+}
+.button:hover{
+    background-color: rgb(255, 255, 255);
+}
